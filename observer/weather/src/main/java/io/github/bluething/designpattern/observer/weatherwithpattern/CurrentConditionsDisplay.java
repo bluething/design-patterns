@@ -1,6 +1,6 @@
 package io.github.bluething.designpattern.observer.weatherwithpattern;
 
-public class CurrentConditionsDisplay implements Observer {
+public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
     private WeatherData weatherData;

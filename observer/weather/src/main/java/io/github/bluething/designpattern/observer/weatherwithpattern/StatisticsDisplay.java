@@ -1,6 +1,6 @@
 package io.github.bluething.designpattern.observer.weatherwithpattern;
 
-public class StatisticsDisplay implements Observer {
+public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = 0.0f;
     private float minTemp = 200;
     private float tempSum= 0.0f;

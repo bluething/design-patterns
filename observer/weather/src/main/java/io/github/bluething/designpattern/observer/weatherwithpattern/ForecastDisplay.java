@@ -1,6 +1,6 @@
 package io.github.bluething.designpattern.observer.weatherwithpattern;
 
-public class ForecastDisplay implements Observer {
+public class ForecastDisplay implements Observer, DisplayElement {
     private float currentPressure = 29.92f;
     private float lastPressure;
     private WeatherData weatherData;
