@@ -13,6 +13,23 @@ import java.util.List;
 
 public class DragonSlayingStrategyTest {
 
+    static Collection<Object[]> dataProvider() {
+        return List.of(
+                new Object[] {
+                        new MeleeStrategy(),
+                        "Melee attack!"
+                },
+                new Object[] {
+                        new ProjectileStrategy(),
+                        "Projectile attack!"
+                },
+                new Object[]{
+                        new SpellStrategy(),
+                        "Spell attack!"
+                }
+        );
+    }
+
     private InMemmoryAppender appender;
 
     @BeforeEach
