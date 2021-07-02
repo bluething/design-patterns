@@ -209,8 +209,8 @@ observer/.idea/*.iml
 observer/.idea/modules
 observer/.idea/gradle.xml
 
-strategy/weather/.gradle
-strategy/weather/build
+strategy/dragonslayer/.gradle
+strategy/dragonslayer/build
 strategy/.idea/artifacts
 strategy/.idea/compiler.xml
 strategy/.idea/jarRepositories.xml
