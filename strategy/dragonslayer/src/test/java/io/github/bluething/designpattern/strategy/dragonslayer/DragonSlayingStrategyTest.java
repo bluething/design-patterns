@@ -51,6 +51,13 @@ public class DragonSlayingStrategyTest {
         Assertions.assertEquals(expectedResult, appender.getLastMessage());
     }
 
+    @ParameterizedTest
+    @MethodSource("dataProvider")
+    public void strategyExecuteUsingParameterizedDataResultingLogWithSizeOneForOneCall(DragonSlayingStrategy dragonSlayingStrategy, String expectedResult) {
+        dragonSlayingStrategy.execute();
+        Assertions.assertEquals(1, appender.getLogSize());
+    }
+
     class InMemmoryAppender extends AppenderBase<ILoggingEvent> {
 
         private final List<ILoggingEvent> log;
