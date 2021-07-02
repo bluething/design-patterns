@@ -207,6 +207,7 @@ observer/.idea/jarRepositories.xml
 observer/.idea/modules.xml
 observer/.idea/*.iml
 observer/.idea/modules
+observer/.idea/gradle.xml
 
 strategy/weather/.gradle
 strategy/weather/build
@@ -216,3 +217,4 @@ strategy/.idea/jarRepositories.xml
 strategy/.idea/modules.xml
 strategy/.idea/*.iml
 strategy/.idea/modules
+strategy/.idea/gradle.xml
