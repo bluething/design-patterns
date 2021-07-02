@@ -208,6 +208,7 @@ observer/.idea/modules.xml
 observer/.idea/*.iml
 observer/.idea/modules
 observer/.idea/gradle.xml
+observer/.idea/**/uiDesigner.xml
 
 strategy/dragonslayer/.gradle
 strategy/dragonslayer/build
@@ -218,3 +219,4 @@ strategy/.idea/modules.xml
 strategy/.idea/*.iml
 strategy/.idea/modules
 strategy/.idea/gradle.xml
+strategy/.idea/**/uiDesigner.xml
