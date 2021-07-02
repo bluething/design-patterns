@@ -201,3 +201,18 @@ gradle-app.setting
 
 observer/weather/.gradle
 observer/weather/build
+observer/.idea/artifacts
+observer/.idea/compiler.xml
+observer/.idea/jarRepositories.xml
+observer/.idea/modules.xml
+observer/.idea/*.iml
+observer/.idea/modules
+
+strategy/weather/.gradle
+strategy/weather/build
+strategy/.idea/artifacts
+strategy/.idea/compiler.xml
+strategy/.idea/jarRepositories.xml
+strategy/.idea/modules.xml
+strategy/.idea/*.iml
+strategy/.idea/modules
