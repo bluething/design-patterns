@@ -4,7 +4,10 @@ import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.AppenderBase;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.slf4j.LoggerFactory;
 
 import java.util.Collection;
@@ -39,6 +42,13 @@ public class DragonSlayingStrategyTest {
     @AfterEach
     public void tearDown() {
         appender.stop();
+    }
+
+    @ParameterizedTest
+    @MethodSource("dataProvider")
+    public void strategyExecuteUsingParameterizedDataWriteSameMessageInLog(DragonSlayingStrategy dragonSlayingStrategy, String expectedResult) {
+        dragonSlayingStrategy.execute();
+        Assertions.assertEquals(expectedResult, appender.getLastMessage());
     }
 
     class InMemmoryAppender extends AppenderBase<ILoggingEvent> {
