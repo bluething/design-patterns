@@ -52,4 +52,4 @@ Changing in one object leads to a change in other objects.
 ### Reference
 
 Elisabeth Freeman, Eric Freeman, Bert Bates, and Kathy Sierra. 2004. <i>Head First Design Patterns</i>. O' Reilly &amp; Associates, Inc.  
-[java-design-patterns/observer/](https://github.com/bluething/java-design-patterns/tree/master/observer)
+[java-design-patterns/observer/](https://github.com/iluwatar/java-design-patterns)
