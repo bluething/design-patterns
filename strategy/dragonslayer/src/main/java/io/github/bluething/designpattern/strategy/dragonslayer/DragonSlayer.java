@@ -11,7 +11,7 @@ public class DragonSlayer {
         dragonSlayingStrategy.execute();
     }
 
-    public DragonSlayingStrategy changeStrategy(DragonSlayingStrategy dragonSlayingStrategy) {
-        return dragonSlayingStrategy;
+    public DragonSlayer changeStrategy(DragonSlayingStrategy dragonSlayingStrategy) {
+        return new DragonSlayer(dragonSlayingStrategy);
     }
 }
